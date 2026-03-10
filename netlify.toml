@@ -1,0 +1,104 @@
+# ================================================================
+# netlify.toml — YOAD Advertising & Digital Printing
+# ================================================================
+# Publish directory: repo root (no build step needed)
+# Deploy: connect GitHub repo → Netlify → publish directory = "."
+# ================================================================
+
+[build]
+  publish = "."
+  # No build command — pure static site
+
+# ================================================================
+# HEADERS — security & caching
+# ================================================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prevent clickjacking
+    X-Frame-Options = "SAMEORIGIN"
+    # Prevent MIME sniffing
+    X-Content-Type-Options = "nosniff"
+    # XSS protection (legacy browsers)
+    X-XSS-Protection = "1; mode=block"
+    # Referrer policy
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    # Permissions policy — disable unnecessary browser features
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    # Content Security Policy (adjust if adding external scripts)
+    Content-Security-Policy = """
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: https:;
+      connect-src 'self' https://www.google-analytics.com https://api.anthropic.com;
+      frame-src https://www.google.com;
+      form-action 'self';
+      base-uri 'self';
+    """
+    # HSTS — force HTTPS (enable after confirming HTTPS works)
+    # Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# HTML pages — short cache, revalidate
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ================================================================
+# REDIRECTS
+# ================================================================
+
+# www → non-www (or vice versa — configure one or the other)
+# [[redirects]]
+#   from = "https://www.yoad.co.zm/*"
+#   to = "https://yoad.co.zm/:splat"
+#   status = 301
+#   force = true
+
+# Old URL compatibility examples
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/services.html"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog/"
+  status = 301
+
+# 404 fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+# ================================================================
+# FORMS — Netlify Forms notifications
+# ================================================================
+# After deploying, go to Netlify dashboard → Forms → quote-request
+# → Add notification (email or webhook to Zapier/SendGrid)
+# No configuration needed here — forms are detected automatically
+# from the data-netlify="true" attribute in HTML.

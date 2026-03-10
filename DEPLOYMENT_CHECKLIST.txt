@@ -1,0 +1,79 @@
+# YOAD Website — Netlify Deployment Checklist
+# =============================================
+# Print or tick off each item before going live.
+
+## 1. NETLIFY SETTINGS
+[ ] Site name set (e.g., yoad-advertising or custom)
+[ ] Publish directory confirmed as "." (repo root)
+[ ] Build command left BLANK (static site, no build)
+[ ] Branch to deploy: main (or master)
+[ ] Deploy hooks enabled (optional: auto-deploy on git push)
+
+## 2. DOMAIN & HTTPS
+[ ] Custom domain added: yoad.co.zm
+[ ] DNS records updated at domain registrar:
+      Option A (Netlify DNS): Update nameservers to Netlify's
+      Option B (External DNS): Add CNAME www → <sitename>.netlify.app
+                                Add A record @ → 75.2.60.5
+[ ] HTTPS certificate issued (automatic via Let's Encrypt)
+[ ] www → non-www redirect working (or vice versa)
+[ ] Uncomment HSTS header in netlify.toml after HTTPS confirmed
+
+## 3. FORMS
+[ ] Deploy site first so Netlify detects forms
+[ ] Go to: Netlify dashboard → Forms → Verify "quote-request" appears
+[ ] Go to: Netlify dashboard → Forms → Verify "contact" appears
+[ ] Add email notification for "quote-request":
+      Netlify → Forms → quote-request → Add notification → Email
+      Enter: yoadprints@gmail.com (or preferred address)
+[ ] Add email notification for "contact" form
+[ ] (Optional) Add Zapier webhook for CRM integration
+[ ] Test form submission end-to-end
+
+## 4. ANALYTICS
+[ ] GA4 property created at analytics.google.com
+[ ] Measurement ID (G-XXXXXXXXXX) inserted in all HTML <head> sections
+[ ] GA snippet uncommented in all pages
+[ ] Test: visit site → check GA4 Realtime report
+
+## 5. CONTENT
+[ ] Real logo file added to /assets/images/logo.png
+[ ] Logo replaced in all navbar instances (currently text-based)
+[ ] Favicon added: /assets/icons/favicon.ico (32×32px)
+[ ] OG image added: /assets/social/og-image.jpg (1200×630px)
+[ ] Portfolio photos added to /assets/images/portfolio/
+[ ] Portfolio placeholder emojis replaced with <img> tags
+[ ] Google Maps iframe embed added to contact.html
+[ ] Hours confirmed with YOAD team and updated in contact.html + JSON-LD
+[ ] Social media URLs verified in site-config.json
+
+## 6. SEO
+[ ] sitemap.xml generated (use xml-sitemaps.com) and added to root
+[ ] robots.txt added to root (see README.md for content)
+[ ] Site submitted to Google Search Console
+[ ] JSON-LD Organization data verified (check schema.org validator)
+[ ] All page <title> tags reviewed and approved by YOAD team
+[ ] All meta descriptions reviewed (under 160 chars each)
+
+## 7. LEGAL
+[ ] Privacy Policy reviewed and approved by YOAD
+[ ] Terms of Service reviewed and approved by YOAD
+[ ] Company registration details verified (Reg. No. 120180006263)
+
+## 8. QUALITY ASSURANCE
+[ ] All pages tested on mobile (iOS Safari + Android Chrome)
+[ ] All pages tested on desktop (Chrome, Firefox, Edge)
+[ ] Quote modal opens and closes correctly
+[ ] All internal links work (no 404s)
+[ ] Contact form submits and shows success message
+[ ] Quote form submits and shows success message
+[ ] Phone CTA bar visible on mobile, hidden on desktop
+[ ] Scroll reveal animations working
+[ ] Navbar becomes opaque on scroll
+[ ] Skip link works (Tab key on page load)
+
+## 9. FINAL SIGN-OFF
+[ ] Client has reviewed all pages
+[ ] Client has tested forms
+[ ] Go-live date confirmed: _______________
+[ ] DNS TTL reduced before cutover (speeds up propagation)

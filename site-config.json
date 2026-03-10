@@ -1,0 +1,45 @@
+{
+  "site": {
+    "title": "YOAD Advertising & Digital Printing",
+    "tagline": "make your ad.",
+    "description": "Zambia's premier brand development company offering end-to-end design, signage, digital printing, and advertising solutions.",
+    "url": "https://yoad.co.zm",
+    "language": "en",
+    "locale": "en_ZM"
+  },
+  "contact": {
+    "email": "yoadprints@gmail.com",
+    "phone1": "+260 977 467 294",
+    "phone2": "+260 971 594 423",
+    "phone1_raw": "+260977467294",
+    "phone2_raw": "+260971594423",
+    "address": {
+      "street": "Plot 10492, Olympia Park",
+      "road": "Manchinchi Road",
+      "city": "Lusaka",
+      "country": "Zambia"
+    },
+    "hours": "Monday – Friday: 08:00 – 17:00 | Saturday: 09:00 – 13:00 | Sunday: By appointment"
+  },
+  "social": {
+    "facebook": "https://facebook.com/yoadprints",
+    "instagram": "https://instagram.com/yoadprints",
+    "twitter": "https://twitter.com/yoadprints",
+    "linkedin": "https://linkedin.com/company/yoad-advertising",
+    "youtube": "https://youtube.com/@yoadprints"
+  },
+  "seo": {
+    "keywords": "advertising Lusaka, digital printing Zambia, 3D signs Lusaka, graphic design Zambia, promotional items Lusaka, signage Zambia, brand development Lusaka",
+    "og_image": "/assets/social/og-image.jpg",
+    "twitter_card": "summary_large_image"
+  },
+  "analytics": {
+    "ga4_id": "G-XXXXXXXXXX"
+  },
+  "company": {
+    "registration": "120180006263",
+    "tpin": "1016759492",
+    "incorporated": "27 July 2018",
+    "country_of_incorporation": "Republic of Zambia"
+  }
+}

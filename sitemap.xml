@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://yoad.co.zm/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://yoad.co.zm/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yoad.co.zm/services/3d-signs.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/digital-printing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/graphic-design.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/promotional-items.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/wall-framing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/video-photography.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/services/website-design.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/portfolio.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yoad.co.zm/portfolio/case-signage.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yoad.co.zm/portfolio/case-branding.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yoad.co.zm/portfolio/case-printing.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yoad.co.zm/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yoad.co.zm/blog/brand-identity.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yoad.co.zm/blog/digital-vs-offset-printing.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yoad.co.zm/blog/3d-signage-business-case.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yoad.co.zm/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>

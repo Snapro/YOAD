@@ -1,0 +1,97 @@
+SOURCE_ATTRIBUTION.txt
+======================
+YOAD Advertising & Digital Printing — Website
+Source document: YCP_1.pdf (YOAD Company Profile)
+
+The following content was derived directly from the company profile PDF
+provided by the client. All copy has been adapted and rewritten for web
+use; direct verbatim reproduction has been minimised and credited below.
+
+--------------------------------------------------------------------
+
+PAGE 2 — "WHO WE ARE" section
+  Used in: about.html, index.html (hero description)
+  Original: "YOAD Advertising & Digital Printing is a brand development
+  company providing vast services to make your brand memorable, trusted
+  and a name on which people can rely on. A strategic, creative and
+  technical experts that offers an end-to-end solution to your Designing,
+  Branding, Indoor & Outdoor Sign solutions."
+  Adapted/paraphrased in all pages.
+
+PAGE 2 — "OVERVIEW" section
+  Used in: about.html (Overview section)
+  Original: "Whether you are creating a new brand or promoting an
+  existing one, your customers' first impression is what counts. A brand
+  that is memorable will become relied upon and trusted..."
+  Used as pull-quote on about.html (attributed).
+
+PAGE 3 — "3D SIGNS" + "INDOOR & OUTDOOR SIGNS"
+  Used in: services/3d-signs.html, services/index.html
+  Service list (3D/2D Backlit Signs, Monument Signs, Reception Signs,
+  Directional Signs, Safety Signs, Traffic Signs, Indoor & Outdoor
+  Branding, Office/lobby/Department Signs) reproduced verbatim as a
+  feature list.
+
+PAGE 4 — "DIGITAL PRINTING"
+  Used in: services/digital-printing.html, services/index.html
+  Service list (Catalogs, Packaging, Brochures, Stationery, Bags,
+  Magazines, Calenders, Posters & Banners, Standees, On Notebooks /
+  Diaries, Vehicle Branding, Flex Print, Vinyl Print) reproduced as
+  a feature list.
+
+PAGE 5 — "PROMOTIONAL ITEMS"
+  Used in: services/promotional-items.html, services/index.html
+  Service list reproduced as a feature list. Tagline "Don't just give
+  away stuff, give away a statement" paraphrased.
+
+PAGE 6 — "WALL FRAMING"
+  Used in: services/wall-framing.html, services/index.html
+  Service list reproduced as feature list. Tagline adapted.
+
+PAGE 7 — "VIDEO & PHOTOGRAPHY"
+  Used in: services/video-photography.html
+  Service list reproduced as feature list.
+
+PAGE 8 — "WEBSITE DESIGN & DEVELOPMENT"
+  Used in: services/website-design.html
+  Technology list (WordPress, HTML & CSS, PHP, jQuery, API, UX,
+  Responsive Design, Version Control/Git) and service types reproduced.
+
+PAGE 9 — "GRAPHIC DESIGN"
+  Used in: services/graphic-design.html
+  Full service list (Logo, Packaging, Branding, Catalogs, Banners,
+  Stationery, Brochures, Magazines, Posters, Calenders, Exhibition Stall,
+  Branding, Corporate Identity, Packaging Designs, SMM Designs,
+  Marketing Collateral, Advertisement Designs, Exhibition Stall Designs,
+  Interior Designs) reproduced as feature lists.
+
+PAGE 10 — CERTIFICATES
+  Used in: about.html (Credentials section)
+  Company Registration No: 120180006263
+  TPIN: 1016759492
+  Incorporation date: 27 July 2018
+  NAPSA Employer Account: 6547717
+
+PAGE 11 — "OUR MISSION" + "OUR VISION"
+  Used in: about.html (Mission & Vision section)
+  Both sections reproduced with minor editorial adaptation for web tone.
+
+PAGE 12 — CONTACT INFORMATION
+  Used in: contact.html, index.html (footer), all pages (footer),
+           site-config.json
+  Address: Plot 10492, Olympia Park, Manchinchi Road, Lusaka
+  Phone: +260 977 467 294 / +260 971 594 423
+  Email: yoadprints@gmail.com
+
+--------------------------------------------------------------------
+Blog posts (brand-identity.html, digital-vs-offset-printing.html,
+3d-signage-business-case.html) are original content written by Claude
+based on general industry knowledge and thematic cues from the PDF.
+The tagline "There are only 3 responses to a sign: YES, NO & WOW! WOW
+defines US" from Page 3 was used as the conceptual basis for the
+3D signage blog post, with attribution.
+
+--------------------------------------------------------------------
+All other copy (hero descriptions, service card body text, blog posts,
+privacy policy, terms of service, README) is original content
+created for this website.
